@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/blog/',
   dest: 'docs',
   title:'Yunhao\'s Blog',
   description:'但行好事，莫问前程',
