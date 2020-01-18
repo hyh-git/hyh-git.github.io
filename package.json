@@ -1,21 +1,19 @@
 {
-  "name": "hyh-git.github.io",
+  "name": "wecode-fe",
   "version": "1.0.0",
-  "description": "网址 https://hyh-git.github.io/",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hyh-git/hyh-git.github.io.git"
+    "start": "vuepress dev src",
+    "pd": "npm run pb && npm run pc",
+    "pp": "git reset --hard && git pull && npm install",
+    "pc": "git add . && git commit -m 'deploy' && git push",
+    "pb": "rm -rf docs && vuepress build src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hyh-git/hyh-git.github.io/issues"
-  },
-  "homepage": "https://github.com/hyh-git/hyh-git.github.io#readme"
+  "devDependencies": {
+    "vuepress": "^1.0.3"
+  }
 }
