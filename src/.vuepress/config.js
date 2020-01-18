@@ -1,5 +1,4 @@
 module.exports = {
-  base: '/blog/',
   dest: 'docs',
   title:'wecode 前端团队',
   description:'致力于利用科技的力量，让孩子们学习编程的过程更轻松、更有趣！',
