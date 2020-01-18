@@ -1,7 +1,7 @@
 module.exports = {
   dest: 'docs',
-  title:'wecode 前端团队',
-  description:'致力于利用科技的力量，让孩子们学习编程的过程更轻松、更有趣！',
+  title:'Yunhao\'s Blog',
+  description:'但行好事，莫问前程',
   head:[
     ['link', { rel: 'icon', href: 'favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -58,7 +58,7 @@ module.exports = {
       },
       {
         text: 'github',
-        link: 'https://github.com/wecode-fe'
+        link: 'https://github.com/hyh-git'
       },
     ],
     sidebar: {
