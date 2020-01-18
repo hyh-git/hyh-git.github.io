@@ -1,0 +1,21 @@
+{
+  "name": "hyh-git.github.io",
+  "version": "1.0.0",
+  "description": "网址 https://hyh-git.github.io/",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyh-git/hyh-git.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyh-git/hyh-git.github.io/issues"
+  },
+  "homepage": "https://github.com/hyh-git/hyh-git.github.io#readme"
+}
