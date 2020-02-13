@@ -41,6 +41,7 @@ module.exports = {
         text: '技术积累',
         items: [
           { text: 'webpack学习', link: '/technology/webpack'},
+          { text: '面试题总结', link: '/technology/interview'},
         ]
       },
       {
@@ -65,7 +66,8 @@ module.exports = {
     sidebar: {
       '/skulpt/': genSidebarConfig('skulpt', ['links', '1']),
       '/scratch/': genSidebarConfig('深入scratch', ['links', '1', 'sb3']),
-      '/technology/': genSidebarConfig('webpack学习', ['ltb', 'jy', 'gxl', 'yh', 'xd']),
+      '/technology/webpack': genSidebarConfig('webpack学习', ['ltb', 'jy', 'gxl', 'yh', 'xd']),
+      '/technology/interview': genSidebarConfig('面试相关', ['interview-topics', 'interview-summary']),
     }
   }
 }
